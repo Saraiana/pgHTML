@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: min-content min-content min-content 2fr min-content;
+}
+
+header{
+    height: 200px;
+    background-color: #d92936;
+    color: white;
+    text-align: center;
+    
+}
+
+header img{
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+header h1{
+    padding-top: 50px;
+}
+
+#menu {
+    padding: 10px;
+}
+#menu img {
+    float: left;
+    height: 60px;
+    width: 60px;
+}
+
+nav ul{
+list-style: nome;
+}
+nav ul li{
+    display: inline;
+    margin-left: 30px;
+    text-align: right;  
+}
+nav ul li a{
+    color: black;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+
+#login {
+    
+    float: right;
+    border: 1px solid;
+    border-color: #ccc;
+    width: 250px;
+    padding: 5px;
+    line-height: 30px;
+    text-align: left;
+}
+
+
+
+#login img{
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+}
+
+
+main{
+    margin: 50px;
+    background-color: #eee;
+    padding: 30px 50px;
+}
+main p{
+   margin-bottom: 20px;
+   text-align: justify;
+   font-size: 20px;
+}
+
+footer{
+    height: 100px;
+    background-color: #d92936;
+    color: white;
+    text-align: center;
+    
+}
+footer p{
+    margin-top: 40px;
+    font-size: small;
+}
